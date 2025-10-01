@@ -23,4 +23,18 @@ Screenshots and GIFs of the application are available in the `/media` folder.
    ```bash
    git clone https://github.com/YourUsername/BonVoyage-Django.git
    cd BonVoyage-Django
+## Install dependencies:
+pip install django
+
+## Run database migrations:
+python manage.py migrate
+
+## Start the development server:
+python manage.py runserver
+
+## Open the application in your browser:
+http://127.0.0.1:8000/
+
+## Notes
+This project was developed as a personal/portfolio project to showcase my skills in Django full-stack development.     
 
